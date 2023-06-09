@@ -38,11 +38,19 @@ body {
     border: 0.25rem solid;
     border-radius: 10px;
     align-self: center;
+    
+    
+    
+}
+
+#formContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 45px;
-    
-    
+    gap: 4px;
+    width: 50%;
+    align-self: center;
+    padding-left: 25%;
+    padding-top: 10%;
 }
 
 .banner {
@@ -78,7 +86,7 @@ body {
 
 }
 
-input {
+.input {
     display: block;
     border-radius: 4px;
     padding: 6px 6px 6px 10px;
