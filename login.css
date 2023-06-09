@@ -26,7 +26,7 @@ body {
 .filler {
     background-color: beige;
     width: 100%;
-    height: 25%;
+    height: 33%;
     padding-left: 20px;
 
 }
@@ -34,23 +34,24 @@ body {
 #forms {
     background-color: white;
     width: 99.5%;
-    height: 50%;
+    height: 33%;
     border: 0.25rem solid;
     border-radius: 10px;
-    align-self: center;
+    display: flex;
     
     
     
 }
 
 #formContainer {
+    align-self: center ;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4px;
-    width: 50%;
+    width: 60%;
     align-self: center;
-    padding-left: 25%;
-    padding-top: 10%;
+    padding: 200px;
+    
 }
 
 .banner {
@@ -78,7 +79,7 @@ body {
     
 }
 
-.filler p{
+.filler p, a{
     color: black;
     font-family: Norse;
     font-size: 22px;
@@ -90,9 +91,31 @@ body {
     display: block;
     border-radius: 4px;
     padding: 6px 6px 6px 10px;
+    align-items: center;
 
 } 
 
+.inputContainer {
+    align-items: center;
+}
+
 .inputContainer > span {
     font-family: Norse;
+}
+
+.inputContainer > label {
+    vertical-align: middle;
+}
+
+.inputContainer > input {
+    vertical-align: middle;
+}
+
+.inputContainer > button{
+    background-color: olive;
+    font-family: Norse;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    
 }
